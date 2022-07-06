@@ -1,0 +1,29 @@
+ .base {
+    width: 900px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: stretch;
+    padding: 0px;
+} 
+
+.row {
+    background: brown;
+    display: flex;
+    border: 2px black;
+    flex: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.child {
+    border: 1px solid black;
+    flex: auto;
+    padding: 0px;
+}
+
+.hovered {
+    background: cadetblue;
+}
